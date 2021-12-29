@@ -13,6 +13,16 @@ if (!defined('DIR_APPLICATION')) {
 	exit;
 }
 
+/**
+ * Require vendor_autoload
+ */
+define('DIR_VENDOR', dirname(__DIR__) . '/vendor/');
+$composer = DIR_VENDOR . 'autoload.php';
+
+if (is_file($composer)) {
+    require_once($composer);
+}
+
 // Startup
 require_once(DIR_SYSTEM . 'startup.php');
 
