@@ -1,0 +1,7 @@
+{
+  "name": "kviron/opencart-2",
+  "type": "library",
+  "description": "OpenCart 2",
+  "keywords": ["opencart", "ecommerce", "framework", "opensource"],
+  "license": "GPL-3.0+"
+}
